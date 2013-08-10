@@ -4,24 +4,24 @@
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
-            label="org.nodeclipse.pluginslist Sample Action Set"
+            label="Nodeclipse Plugins List Action Set"
             visible="true"
             id="org.nodeclipse.pluginslist.core.actionSet">
          <menu
-               label="org.nodeclipse.pluginslist Sample &amp;Menu"
-               id="sampleMenu">
+               label="Node&amp;clipse"
+               id="nodeclipseMenu">
             <separator
                   name="sampleGroup">
             </separator>
          </menu>
          <action
-               label="&amp;org.nodeclipse.pluginslist Sample Action"
+               label="&amp;Nodeclipse Plugins List"
                icon="icons/sample.gif"
-               class="org.nodeclipse.pluginslist.core.SampleAction"
-               tooltip="Hello, Mavenized Eclipse. org.nodeclipse.pluginslist is built with Tycho"
-               menubarPath="sampleMenu/sampleGroup"
+               class="org.nodeclipse.pluginslist.core.PluginsListAction"
+               tooltip="Nodeclipse Plugins List is convinient way to install Nodeclipse plugins"
+               menubarPath="nodeclipseMenu/sampleGroup"
                toolbarPath="sampleGroup"
-               id="org.nodeclipse.pluginslist.core.SampleAction">
+               id="org.nodeclipse.pluginslist.core.PluginsListAction">
          </action>
       </actionSet>
    </extension>
