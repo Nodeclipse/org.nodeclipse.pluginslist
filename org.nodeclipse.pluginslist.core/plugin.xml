@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="org.nodeclipse.pluginslist Sample Action Set"
+            visible="true"
+            id="org.nodeclipse.pluginslist.core.actionSet">
+         <menu
+               label="org.nodeclipse.pluginslist Sample &amp;Menu"
+               id="sampleMenu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               label="&amp;org.nodeclipse.pluginslist Sample Action"
+               icon="icons/sample.gif"
+               class="org.nodeclipse.pluginslist.core.SampleAction"
+               tooltip="Hello, Mavenized Eclipse. org.nodeclipse.pluginslist is built with Tycho"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               id="org.nodeclipse.pluginslist.core.SampleAction">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
