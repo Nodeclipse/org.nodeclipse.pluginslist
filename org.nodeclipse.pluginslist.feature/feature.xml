@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.nodeclipse.pluginslist.feature"
-      label="org.nodeclipse.pluginslist Feature"
-      version="0.1.0.qualifier">
+      label="Nodeclipse Plugins List Feature"
+      version="0.1.0.qualifier"
+      provider-name="Nodeclipse organization">
 
    <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+      Nodeclipse Plugins List is convinient way to install Nodeclipse plugins.
    </description>
 
    <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+      Copyright (c) 2013 Paul Verest within Nodeclipse
    </copyright>
 
    <license url="http://www.example.com/license">
-      [Enter License Description here.]
+      Copyright (c) 2013 Paul Verest within Nodeclipse
    </license>
 
    <plugin
