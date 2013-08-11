@@ -7,6 +7,7 @@
             label="Nodeclipse Plugins List Action Set"
             visible="true"
             id="org.nodeclipse.pluginslist.core.actionSet">
+            <!--
          <menu
                label="Node&amp;clipse"
                id="nodeclipseMenu">
@@ -14,12 +15,13 @@
                   name="sampleGroup">
             </separator>
          </menu>
+          -->
          <action
                label="&amp;Nodeclipse Plugins List"
                icon="icons/sample.gif"
                class="org.nodeclipse.pluginslist.core.PluginsListAction"
                tooltip="Nodeclipse Plugins List is convinient way to install Nodeclipse plugins"
-               menubarPath="nodeclipseMenu/sampleGroup"
+               menubarPath="help/sampleGroup"
                toolbarPath="sampleGroup"
                id="org.nodeclipse.pluginslist.core.PluginsListAction">
          </action>
