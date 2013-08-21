@@ -20,7 +20,7 @@
                label="&amp;Nodeclipse Plugins List"
                icon="icons/sample.gif"
                class="org.nodeclipse.pluginslist.core.PluginsListAction"
-               tooltip="Nodeclipse Plugins List is convinient way to install Nodeclipse plugins"
+               tooltip="Nodeclipse Plugins List is convinient way to install Eclipse plugins"
                menubarPath="help/sampleGroup"
                toolbarPath="sampleGroup"
                id="org.nodeclipse.pluginslist.core.PluginsListAction">
